@@ -1,0 +1,17 @@
+.themes{
+    @extend .flex-central;
+    flex-direction: column;
+    .btn-theme{
+        background-color: var(--secondary-color);
+        border: none;
+        margin: 5px;
+        color: var(--contrast-color);
+        padding: 15px 30px;
+        border-radius: 20px;
+        &:hover{
+            background-color: var(--contrast-color);
+            color: var(--secondary-color);
+            transition: 0.4s;
+        }
+    }
+}

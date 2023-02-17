@@ -1,0 +1,31 @@
+.home{
+    @extend .flex-central;
+    min-width: 100%;
+    .border{
+        border-radius: 100%;
+        background-color: var(--secondary-color);
+        @extend .flex-central;
+        animation: border 5s ease-in-out infinite;
+        .avatar{
+            border-radius: 100%;
+            padding: 4px;
+            height: 15rem;
+            width: 15rem;
+            object-fit: cover;
+            background-color: var(--terciary-color);
+            
+        }
+    }
+}
+
+@keyframes border{
+    0%{
+        padding: 7px;
+    }
+    50%{
+        padding: 21px;
+    }
+    100%{
+        padding: 7px;
+    }
+}
