@@ -11,7 +11,7 @@ function About(){
                 <div className="about-text-column">
                     <p>Este é um layout desenvolvido para ser uma página moderna, responsiva, de alto carregamento e estéticamente agradável que represente 
                         você ou sua marca. <br/> O objetivo é que esse layout seja customizado, com as páginas que deseja, as cores da sua identidade de marca, 
-                        e sua logo / avatar onde você vê esse cubo preto. Em seu site, esse texto dará origem a um texto sobre você ou sua marca.
+                        e sua logo / avatar onde você vê essa "logo" preta. Em seu site, esse texto dará origem a um texto sobre você ou sua marca.
                     </p>
                 </div>
             </div>
